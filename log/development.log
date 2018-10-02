@@ -1607,3 +1607,78 @@ Started POST "/search" for 8.47.97.101 at 2018-10-02 14:43:52 +0000
 Cannot render console from 8.47.97.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by SearchesController#foursquare as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"VIvft8rgyRX27ElShQOLkmvWhbWdZy8FYrjZvk8rE4qSDpYMBo04hxYlN40/Wo/2h2GgY5f3kJaEkWKFqhvrFA==", "zipcode"=>"14623", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 188ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 8.47.97.101 at 2018-10-02 14:44:46 +0000
+Cannot render console from 8.47.97.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j34Ghu4D05fXWVoDkTVApHrfQf/tX9LdM6RwGzrbottJ+089Im4iBTeQJNwrbETAlmhkKefPbU7Vjcsg3+taRQ==", "venue_id"=>"4b368ca5f964a520c13725e3", "tip"=>"Tasty!", "commit"=>"Add Tip"}
+Redirected to http://159.89.225.105:59746/tips
+Completed 302 Found in 79ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 8.47.97.101 at 2018-10-02 14:44:46 +0000
+Cannot render console from 8.47.97.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 145ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 8.47.97.101 at 2018-10-02 14:44:51 +0000
+Cannot render console from 8.47.97.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 147ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 8.47.97.101 at 2018-10-02 14:46:31 +0000
+Cannot render console from 8.47.97.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 8.47.97.101 at 2018-10-02 14:46:35 +0000
+Cannot render console from 8.47.97.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 8.47.97.101 at 2018-10-02 14:46:39 +0000
+Cannot render console from 8.47.97.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 121ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 8.47.97.101 at 2018-10-02 14:48:50 +0000
+Cannot render console from 8.47.97.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 8.47.97.101 at 2018-10-02 14:48:52 +0000
+Cannot render console from 8.47.97.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3PNYABV6RL8NW9jC26v0wg5H1DxQWcr901LPUMKr4iMadhG72Re1Le2Sph1h8vCm4vDx6lrJdW41e3RrJ5savQ==", "zipcode"=>"14623", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 186ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 8.47.97.101 at 2018-10-02 14:49:04 +0000
+Cannot render console from 8.47.97.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ic5g3CmtZjjPzSRiMJdW+vzaiImPmIXBh+zd3SpeleRPSyln5cCXqi8EWr2KzlKeEG2tX4UIOlJhxWbmz25teg==", "venue_id"=>"4b428eddf964a5207ed625e3", "tip"=>"Yummy food", "commit"=>"Add Tip"}
+Redirected to http://159.89.225.105:59746/tips
+Completed 302 Found in 320ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 8.47.97.101 at 2018-10-02 14:49:04 +0000
+Cannot render console from 8.47.97.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 125ms (Views: 18.3ms | ActiveRecord: 0.0ms)
